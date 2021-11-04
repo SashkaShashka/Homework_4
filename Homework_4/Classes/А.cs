@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework_4
 {
-    public abstract class А
+    abstract class A
     {
         public string Prop1 = "aaa";
         public int Prop2
@@ -20,9 +20,6 @@ namespace Homework_4
         {
             return 0;
         }
-        public void Foo(DateTime dateTime)
-        {
-
-        }
+        public abstract void Foo(DateTime dateTime);
     }
 }
