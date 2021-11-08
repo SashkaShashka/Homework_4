@@ -18,7 +18,7 @@ namespace Homework_4
         }
         public int Foo()
         {
-            return 0;
+            throw new NotImplementedException();
         }
         public abstract void Foo(DateTime dateTime);
     }
